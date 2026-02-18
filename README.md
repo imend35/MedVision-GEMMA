@@ -57,4 +57,5 @@ I have architected this process as a professional AI Engineering Pipeline, expan
   Below I have listed the files I prepared during the software development phase of my project and their purpose:
 
    *  Step 1: The X-Ray-CSV-File.py , This file contains 72,000+ lung X-ray images. The code in this file created the cxr_metadata.csv file. This file contains the local directory and information about whether the image is Normal, Covid-19, Tuberculosis, or Pneumonia. This allowed me to categorize the images accordingly.
-   *  Step 2, Step 3 : CXR.jpynb cloab file ,  
+   *  Step 2, Step 3 : Model_Code.jpynb colab file ,
+   *  Step 4 ,Step 5 : App_Code.jpynb colab file
