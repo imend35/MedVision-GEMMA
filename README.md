@@ -1,10 +1,10 @@
 Implementation of HAI-DEF Framework in MedVision-Gemma: A Scalable AI Diagnostic Ecosystem
 
 **About the Author: A Fusion of Engineering & Strategy**
-I’m Esila Nur DEMİRCİ. As a Software Engineer and Business Analyst with over 12 years of professional experience in the financial and technology sectors (including leading institutions like İş Bank, Akbank, Etiya, and TEB in Turkey), I bridge the gap between complex technical architectures and high-level business strategies.
-With a double major in Mathematics and Computer Science and a Master’s degree in Information Technologies from Istanbul Technical University (İTÜ), my career has been dedicated to building robust, scalable, and secure systems. This project, MedVision-Gemma, is the culmination of my technical expertise and my vision for a more empathetic, AI-driven healthcare future.
+I’m Esila Nur DEMİRCİ. As a Software Engineer and Business Analyst with over 12 years of professional experience in the financial and technology sectors (including leading institutions like İş Bank, Akbank, Etiya, and TEB in Turkey), I bridge the gap between complex technical architectures and high-level business strategies.With a double major in Mathematics and Computer Science and a Master’s degree in Information Technologies from Istanbul Technical University (İTÜ), my career has been dedicated to building robust, scalable, and secure systems. This project, MedVision-Gemma, is the culmination of my technical expertise and my vision for a more empathetic, AI-driven healthcare future.
 
 **Project Name** MedVision-Gemma
+
 **Vision**: AI-Powered Clinical Decision Support & Patient Guidance.
 
 MedVision-Gemma is a human-centric AI platform designed to assist clinicians in diagnosing Covid-19, Pneumonia, and Tuberculosis from X-ray images. At its core, it integrates a specialized computer vision model with MedGemma to provide clinical reasoning. Instead of merely outputting a probability percentage, the system utilizes MedGemma to generate professional clinical summaries for doctors and empathetic, simplified explanations for patients.
@@ -54,7 +54,8 @@ The entire ecosystem is containerized via Docker for "Run Anywhere" capability. 
 *	Dimensional Evolution: Expanded from 1024-D to 4096-D to capture finer clinical nuances.
 *	Security Stabilization: Pivoted from manual token-passing to a more stable IAM-Bound Access model.
 *	Data Integrity: Achieved 100% PNG standardization through the "TURBO Factory" pipeline, eliminating legacy format errors.
-Conclusion: The Impact
+  
+**Conclusion: The Impact**
 MedVision-Gemma is not just an algorithm; it is a Healthcare Delivery Excellence Framework. By combining Google's world-class medical foundations with localized, secure, and explainable AI, I am proposing a future where technology empowers doctors and where patients are never left in the dark with just a percentage.
 
 
