@@ -1,14 +1,15 @@
 Implementation of HAI-DEF Framework in MedVision-Gemma: A Scalable AI Diagnostic Ecosystem
 
-About the Author: A Fusion of Engineering & Strategy
+**About the Author: A Fusion of Engineering & Strategy**
 I’m Esila Nur DEMİRCİ. As a Software Engineer and Business Analyst with over 12 years of professional experience in the financial and technology sectors (including leading institutions like İş Bank, Akbank, Etiya, and TEB in Turkey), I bridge the gap between complex technical architectures and high-level business strategies.
 With a double major in Mathematics and Computer Science and a Master’s degree in Information Technologies from Istanbul Technical University (İTÜ), my career has been dedicated to building robust, scalable, and secure systems. This project, MedVision-Gemma, is the culmination of my technical expertise and my vision for a more empathetic, AI-driven healthcare future.
 
-Project Name: MedVision-Gemma
-Vision: AI-Powered Clinical Decision Support & Patient Guidance.
+**Project Name** MedVision-Gemma
+**Vision**: AI-Powered Clinical Decision Support & Patient Guidance.
 
 MedVision-Gemma is a human-centric AI platform designed to assist clinicians in diagnosing Covid-19, Pneumonia, and Tuberculosis from X-ray images. At its core, it integrates a specialized computer vision model with MedGemma to provide clinical reasoning. Instead of merely outputting a probability percentage, the system utilizes MedGemma to generate professional clinical summaries for doctors and empathetic, simplified explanations for patients.
-The Project Architecture: High-Definition AI (HAI-DEF)
+
+**The Project Architecture: High-Definition AI (HAI-DEF)**
 I have implemented a multi-layered diagnostic system that adheres to the highest standards of HAI-DEF models—prioritizing clinical accuracy, data privacy, and explainability.
 1. The Data Foundation: Master PNG Factory & Metadata Ingestion
 Before feature extraction, I engineered a Massive PNG Factory to standardize 72,297 images.
@@ -27,12 +28,12 @@ To fulfill the HAI-DEF requirement of Human-Centric AI, I integrated the MedGemm
 •	Dynamic Prompting: The RF model's output is fed into MedGemma to generate context-aware reports.
 •	Dual-Experience: The system generates a technical Physician’s Note and an empathetic Patient’s Guide, translating raw data into actionable wisdom.
 
-Why Did I Choose This Hybrid Architecture?
+**Why Did I Choose This Hybrid Architecture?**
 1.	Explainability (The "Why" Factor): Random Forest provides technical justification, while MedGemma provides linguistic clinical reasoning.
 2.	Multimodal Fusion: We fuse image embeddings with patient metadata (Age, Symptoms, History) for a more robust conclusion than standalone CNNs.
 3.	Decentralized Deployment (Privacy-First): The lightweight RF model and containerized reasoning engine are designed for Edge Computing, allowing on-premise hospital deployment to ensure 100% data privacy.
 
-Project Roadmap (Unified Workflow)
+**Project Roadmap (Unified Workflow)**
 * Step 1: Clinical Cloud Infrastructure & GCS Structuring
   Established a Tier-1 architecture on Google Cloud Storage (GCS) to manage the massive 18GB CXR dataset (72,297+ assets). An IAM Identity Bridge was implemented between the Vertex AI service agents and the Iowa-based CXR-Foundation model, ensuring seamless, high-security access to clinical data.
 * Step 2: The Master PNG Factory & Metadata Governance
@@ -48,10 +49,11 @@ Developed a Gradio-based clinical interface that translates technical data into 
 * Step 7: Privacy-First Deployment (Docker & Hospital Firewall)
   
 The entire ecosystem is containerized via Docker for "Run Anywhere" capability. The deployment is optimized for on-premise or cloud-based hospital environments, ensuring 100% data privacy behind secure firewalls.
-Technical Highlights
-•	Dimensional Evolution: Expanded from 1024-D to 4096-D to capture finer clinical nuances.
-•	Security Stabilization: Pivoted from manual token-passing to a more stable IAM-Bound Access model.
-•	Data Integrity: Achieved 100% PNG standardization through the "TURBO Factory" pipeline, eliminating legacy format errors.
+
+**Technical Highlights**
+*	Dimensional Evolution: Expanded from 1024-D to 4096-D to capture finer clinical nuances.
+*	Security Stabilization: Pivoted from manual token-passing to a more stable IAM-Bound Access model.
+*	Data Integrity: Achieved 100% PNG standardization through the "TURBO Factory" pipeline, eliminating legacy format errors.
 Conclusion: The Impact
 MedVision-Gemma is not just an algorithm; it is a Healthcare Delivery Excellence Framework. By combining Google's world-class medical foundations with localized, secure, and explainable AI, I am proposing a future where technology empowers doctors and where patients are never left in the dark with just a percentage.
 
