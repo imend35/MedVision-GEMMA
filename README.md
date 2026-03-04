@@ -196,7 +196,7 @@ This establishes full data lineage and provenance control.
 
 - Atomic Parquet snapshotting
 
-🎯 Raw pixels → Clinically meaningful semantic vectors
+ Raw pixels → Clinically meaningful semantic vectors
 
 ---
 
@@ -255,13 +255,13 @@ Architecture:
 ---
 
 ## Step 8: Patient-Centric Health Companion
-📱 iOS Architecture & AI Integration Layer
+ iOS Architecture & AI Integration Layer
 
 Integration Flow: iOS App → Secure API → Inference Engine → Structured Output → Empathetic Guidance
 
 ---
 
-🏆 Technical Highlights
+ Technical Highlights
 
 - 1152-D Medical Embeddings (MedSigLIP)
 - Resume-safe checkpoint architecture
