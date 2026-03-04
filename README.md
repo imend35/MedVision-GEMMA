@@ -241,7 +241,7 @@ Exported .pkl model artifact
 ---
 
 ## Step 7: Physician Intelligent Assistant
-🩺 Clinical Decision Support Dashboard
+ Clinical Decision Support Dashboard
 
 Architecture:
 
