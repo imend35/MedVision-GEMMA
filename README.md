@@ -98,7 +98,7 @@ To fulfill the HAI-DEF requirement of human-centric AI, the system incorporates 
 > The final output is not just a probability — it is contextualized clinical intelligence.
 ---
 
-##Why Did I Choose This Hybrid Architecture?
+## Why Did I Choose This Hybrid Architecture?
 
  1- Explainability (The “Why” Factor)
 
